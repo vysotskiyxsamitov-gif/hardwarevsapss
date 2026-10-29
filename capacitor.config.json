@@ -1,0 +1,11 @@
+{
+  "appId": "com.hardwarevs.app",
+  "appName": "HardwareVS",
+  "webDir": "www",
+  "server": {
+    "url": "https://vysotskiyxsamitov-gif.github.io/hardwarevs/index.html",
+    "allowNavigation": ["vysotskiyxsamitov-gif.github.io", "*.supabase.co"],
+    "errorPath": "offline.html"
+  },
+  "android": { "backgroundColor": "#08090b" }
+}

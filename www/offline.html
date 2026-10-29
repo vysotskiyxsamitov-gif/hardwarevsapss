@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>HardwareVS — нет соединения</title>
+<style>
+html,body{margin:0;height:100%;background:#08090b;color:#ededef;font-family:'Segoe UI',system-ui,sans-serif}
+body{display:flex;align-items:center;justify-content:center;text-align:center;padding:24px;
+background:radial-gradient(ellipse 60% 40% at 50% 0%,rgba(111,125,255,.18),transparent 70%),#08090b}
+.c{max-width:360px}
+svg{width:46px;height:46px;fill:none;stroke:#ededef;stroke-width:1.7;stroke-linejoin:round;stroke-linecap:round;margin-bottom:14px}
+h1{margin:0 0 8px;font-size:24px;letter-spacing:-.02em}
+p{margin:0 0 22px;color:#8a8f98;font-size:14px;line-height:1.55}
+button{font:inherit;font-weight:700;font-size:14px;color:#fff;background:#6f7dff;border:0;border-radius:9px;padding:12px 28px;cursor:pointer}
+button:focus-visible{outline:2px solid #6f7dff;outline-offset:3px}
+</style></head><body>
+<div class="c">
+<svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 2.5l8.5 4.9v9.2L12 21.5l-8.5-4.9V7.4L12 2.5z"/><path d="M12 12l8.5-4.6M12 12L3.5 7.4M12 12v9.5"/></svg>
+<h1>Нет соединения</h1>
+<p>HardwareVS работает через интернет. Проверьте подключение и повторите.</p>
+<button type="button" id="r">Повторить</button>
+</div>
+<script>
+var SITE='https://vysotskiyxsamitov-gif.github.io/hardwarevs/index.html';
+document.getElementById('r').addEventListener('click',function(){location.href=SITE});
+window.addEventListener('online',function(){location.href=SITE});
+</script>
+</body></html>
